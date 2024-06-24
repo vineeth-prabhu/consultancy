@@ -806,6 +806,19 @@ ul.social-list li a i {
 
 
 /* ===== Begin contact ===== */
+.contact-info{
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.cont{
+	padding-right: 20px;
+}
+.contact-info h4{
+	margin-bottom: 20px;
+}
+
 #contact-section {
 	position: relative;
 }
@@ -841,7 +854,9 @@ ul.social-list li a i {
 }
 
 ul.contact-address {
-	float: left;
+	/* float: left; */
+	/* display: flex; */
+	/* flex-direction: row; */
 	width: 100%;
 	padding: 0;
 	margin: 15px 0 ;
